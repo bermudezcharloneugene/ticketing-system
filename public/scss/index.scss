@@ -1,0 +1,246 @@
+@media only screen and (min-width: 1024px) {
+    .w {
+        width: 35%!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .w {
+        width: 50%!important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .w {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+    .w {
+        width:75%!important;
+    }
+}
+
+.login-container {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+
+    .form-control {
+        margin: 8px 0;
+    }
+}
+
+/* PROTECTED PAGES CLASS STARTS HERE */
+
+
+.card {
+    margin: 10px 10px;
+
+    .card-footer{
+        // display: none;
+        // opacity: 0;
+        // min-height: 0;
+        background-color: #343a40!important;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        z-index: 0;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        opacity: 1;
+        height: 50%;
+        
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        .card-body {
+            .card-body-wrapper {
+    
+                .ico {
+                    font-size: 6vh!important;
+                    color: #4d4f52!important
+                }
+            }
+        }
+    }
+
+    .card-body {
+        .card-body-wrapper {
+
+            .ico {
+                color: #343a40!important;
+                font-size: 6vh!important;
+            }
+        }
+    }
+}
+
+
+.list-group {
+    .active {
+        background-color: #797979 !important;
+        color: white;
+        border-color: transparent;
+    }
+    .list-group-item-action {
+        &:hover{
+            background-color: #343a40!important;
+            color: white;
+            border-color: transparent;
+        }
+    }
+}    
+
+
+
+.border-right {
+    border-right: 1px solid rgba(0,0,0,.125)!important;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.selection {
+    cursor: pointer;
+}
+
+.bg-teal {
+    background-color: rgb(23, 212, 212);
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+
+.sidebar
+{
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+@media (min-width: 768px)
+{
+    .sidebar{
+        margin-left: 0;
+    }
+}
+
+#wrapper .list-group {
+    width: 15rem;
+}
+
+.list-group-flush {
+    border: 0;
+}
+
+.image-profile
+{
+    max-width: 150px;
+    max-height: 150px;
+    height: -webkit-fill-available;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    margin: 3em;
+}
+
+@media (min-width: 768px)
+{
+    .main-page {
+        min-width: 0!important;
+        width: 100%;
+    }
+}
+
+.main-page {
+    min-width: 100vw;
+}
+
+.card-text {
+    font-size: 24px;
+}
+
+.image-upload-form {
+    max-width: 400px;
+
+    .image-preview-wrapper {
+        // border: 1px solid black;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .image-prev {
+
+            height: fit-content;
+            max-width: 200px;
+            max-height: 200px;
+            
+        }
+    }
+
+}
+
+
+.img-preview {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+
+// CSS LOADER HERE
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #212529;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #212529 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

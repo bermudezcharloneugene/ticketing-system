@@ -1,0 +1,21 @@
+{
+  "name": "ticketing_system2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sha512.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "gulp sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.4"
+  }
+}

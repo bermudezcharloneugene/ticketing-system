@@ -1,0 +1,117 @@
+@media only screen and (min-width: 1024px) {
+    .w {
+        width: 35%!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .w {
+        width: 50%!important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .w {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+    .w {
+        width:75%!important;
+    }
+}
+
+.login-container {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+/* PROTECTED PAGES CLASS STARTS HERE */
+
+.card-form:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+.border-right {
+    border-right: 1px solid rgba(0,0,0,.125)!important;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.selection {
+    cursor: pointer;
+}
+
+.bg-teal {
+    background-color: rgb(23, 212, 212);
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+
+.sidebar
+{
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+@media (min-width: 768px)
+{
+    .sidebar{
+        margin-left: 0;
+    }
+}
+
+#wrapper .list-group {
+    width: 15rem;
+}
+
+.list-group-flush {
+    border: 0;
+}
+
+.image-profile
+{
+    width: 100%;
+    object-fit: none;
+    height: fit-content;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px)
+{
+    .main-page {
+        min-width: 0!important;
+        width: 100%;
+    }
+}
+
+.main-page {
+    min-width: 100vw;
+}
+
+.card-text {
+    font-size: 24px; }
+
+.ico {
+    font-size: 24vh!important;
+}
+

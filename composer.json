@@ -1,0 +1,23 @@
+{
+    "name": "dondon/ticketing_system2",
+    "description": "",
+    "authors": [
+        {
+            "name": "Eugene",
+            "email": "bermudezcharloneugene@yahoo.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon" : "2.33.0",
+        "datatables/datatables": "^1.10",
+        "fzaninotto/faker": "^1.9",
+        "rakit/validation": "^1.4"
+    },
+    "autoload": {
+        "classmap" : [
+            "app/config",
+            "app/classes",
+            "app/utils"
+        ]
+    }
+}
